@@ -63,6 +63,7 @@ hr {
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   margin-left:-400px;
+  color: #828282;
 }
 
 .search {
@@ -366,11 +367,12 @@ hr {
 
 .Earnings-head {
   width: 650px;
-  height: 20px;
+  height: 35px;
   background-color: #F5F5F5;
 }
 
 .Earnings-head-box {
+  margin-left: 20px;
   display: flex;
   color: #4e73df;
   font-family: courier;
@@ -404,7 +406,7 @@ hr {
   color: #4e73df;
   font-family: courier;
   font-weight: bold;
-  height: 20px;
+  height: 35px;
 }
 
 .revenue-img {
@@ -460,7 +462,7 @@ hr {
   color: #4e73df;
   font-family: courier;
   font-weight: bold;
-  height: 20px;
+  height: 35px;
 }
 
 .Projects-header {
@@ -598,7 +600,7 @@ hr {
   display: flex;
   font-family: courier;
   font-weight: bold;
-  height: 20px;
+  height: 35px;
 }
 
 .box-mago {
@@ -636,7 +638,7 @@ hr {
   margin-left: 20px;
   font-family: courier;
   font-weight: bold;
-  height: 20px;
+  height: 35px;
 }
 
 .development-text {
@@ -765,7 +767,7 @@ hr {
     background-color: #4e73df;
     color: #ffffff;
     width: 250px;
-    height: 241vh;
+    height: 1448px;
   }
 
   .sbadmin {
