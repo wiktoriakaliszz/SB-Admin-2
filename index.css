@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+* {
+  margin: 0;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  background-color: #F4F6F6;
+  height: 200px;
+  width: 100%;
+}
+
+.Dashboard_row {
+  flex-direction: row;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+.Dashboard-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 4%;
+  color: #5A5C69;
+  width: 25%;
+  height: 80px;
+  background-color: #F4F6F6;
+  font-style: normal;
+  font-size: 30px;
+  align-items: center;
+}
+
+.button {
+  height: 40px;
+  width: 170px;
+  background-color: #4e73df;
+  color: white;
+  border-radius: 5px;
+}
+
+.button:hover {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.24), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  background-color: #4e73df;
+}
+
+.button-dl {
+  margin-top: 26px;
+  margin-right: 4%;
+}
+
+.fa-download {
+  margin-right: 10px;
+}
+
+.Report-button {
+  margin-right: 4%;
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+  height: 80px;
+  background-color: #F4F6F6;
+  font-style: normal;
+  font-size: 30px;
+  align-items: center;
+}
+
+.xtabs_row {
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  justify-content: space-evenly;
+  font-variant: small-caps;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.count {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5A5C69;
+  margin-left: 20px;
+}
+
+.earnings-monthly-tab {
+  display: flex;
+  border-left: 2px solid #4e73df;
+  border-radius: 5px;
+  height: 100px;
+  width: 20%;
+  align-items: center;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 108px -42px black;
+  -moz-box-shadow: 0px 0px 108px -42px black;
+  box-shadow: 0px 0px 108px -42px black;
+}
+
+.e-m-input {
+  color: #4e73df;
+  margin-left: 20px;
+}
+
+.icon-earnings-m {
+  color: LightGrey;
+  font-size: 34px;
+  margin-left: 40px;
+}
+
+.earnings-annual-tab {
+  display: flex;
+  border-left: 2px solid #1cc88a;
+  height: 100px;
+  width: 20%;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 108px -42px black;
+  -moz-box-shadow: 0px 0px 108px -42px black;
+  box-shadow: 0px 0px 108px -42px black;
+}
+
+.e-a-input {
+  color: #1cc88a;
+  margin-left: 20px;
+}
+
+.icon-earnings-a {
+  color: LightGrey;
+  font-size: 34px;
+  margin-left: 60px;
+}
+
+.tasks-tab {
+  display: flex;
+  border-left: 2px solid #36b9cc;
+  height: 100px;
+  width: 20%;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 108px -42px black;
+  -moz-box-shadow: 0px 0px 108px -42px black;
+  box-shadow: 0px 0px 108px -42px black;
+}
+
+.tasks-input {
+  color: #36b9cc;
+  margin-left: 20px;
+}
+
+.prg-bar {
+  height: 8px;
+  width: 100px;
+}
+
+.icon-tasks {
+  color: LightGrey;
+  font-size: 34px;
+  margin-left: 50px;
+}
+
+.pending-requests-tab {
+  display: flex;
+  border-left: 2px solid #f6c23e;
+  height: 100px;
+  width: 20%;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.pending-req-input {
+  color: #f6c23e;
+  margin-left: 20px;
+}
+
+.icon-comments {
+  color: LightGrey;
+  font-size: 34px;
+  margin-left: 40px;
+}
