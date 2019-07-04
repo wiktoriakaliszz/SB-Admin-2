@@ -325,7 +325,6 @@ hr {
 .container-mago-row {
   margin-top: 20px;
   width: 1250px;
-  flex-flow: row wrap;
   display: flex;
   justify-content: space-around;
 }
@@ -350,28 +349,27 @@ hr {
 }
 
 .container-div {
-  margin-left: 32px;
+  margin-left: -10px;
   display: flex;
   justify-content: space-around;
 }
 
 .Earnings {
+  margin-left: 25px;
   border-radius: 8px;
   max-width: 652px;
   height: 357px;
-  margin-left: 70px;
   box-shadow: 5px 15px 15px #888888;
   background-color: white;
 }
 
 .Earnings-head {
   width: 650px;
-  height: 40px;
+  height: 20px;
   background-color: #F5F5F5;
 }
 
 .Earnings-head-box {
-  margin-left: 20px;
   display: flex;
   color: #4e73df;
   font-family: courier;
@@ -386,10 +384,10 @@ hr {
 }
 
 .Revenue {
-  width: 350px;
+  width: 325px;
   height: 358px;
   border-radius: 8px;
-  margin-right: 70px;
+  margin-right: 15px;
   box-shadow: 5px 15px 15px #888888;
   background-color: white;
 }
@@ -405,19 +403,21 @@ hr {
   color: #4e73df;
   font-family: courier;
   font-weight: bold;
+  height: 20px;
 }
 
 .revenue-img {
   margin-top: 25px;
-  width: auto;
+  width: 325px;
   height: 260px;
 }
 
 .left-right-mago-div {
   display: flex;
   justify-content: space-around;
-  margin-right: 192px;
+  margin-right: 220px;
 }
+
 
 .left-mago-div {
   display: flex;
@@ -459,6 +459,7 @@ hr {
   color: #4e73df;
   font-family: courier;
   font-weight: bold;
+  height: 20px;
 }
 
 .Projects-header {
@@ -581,7 +582,7 @@ hr {
 .Illustrations {
   margin-top: 30px;
   border-radius: 8px;
-  width: 450px;
+  width: 420px;
   height: 475px;
   box-shadow: 5px 15px 15px #888888;
 }
@@ -596,6 +597,7 @@ hr {
   display: flex;
   font-family: courier;
   font-weight: bold;
+  height: 20px;
 }
 
 .box-mago {
@@ -603,7 +605,7 @@ hr {
 }
 
 .illustrations-img {
-  width: 90%;
+  width: 420px;
   background-color: #F5F5F5;
 }
 
@@ -618,7 +620,7 @@ hr {
 .Development {
   margin-top: 50px;
   border-radius: 8px;
-  width: 450px;
+  width: 420px;
   height: 275px;
   box-shadow: 5px 15px 15px #888888;
 }
@@ -633,11 +635,12 @@ hr {
   margin-left: 20px;
   font-family: courier;
   font-weight: bold;
+  height: 20px;
 }
 
 .development-text {
   background-color: white;
-  width: 350px;
+  width: 320px;
   height: 150px;
   margin-left: 15px;
   margin-top: 25px;
