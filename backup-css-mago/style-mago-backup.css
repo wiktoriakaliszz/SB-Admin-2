@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.container-mago {
+  background-color: #e8e8e8;
+  width: 100%;
+  padding: 0;
+}
+
+.container-mago-row {
+  margin-top: 20px;
+  width: 1250px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.main-container-mago {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  color: #828282;
+}
+
+.box {
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+
+.container-div {
+  margin-left: 32px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Earnings {
+  border-radius: 8px;
+  max-width: 652px;
+  height: 357px;
+  margin-left: 70px;
+  box-shadow: 5px 15px 15px #888888;
+  background-color: white;
+}
+
+.Earnings-head {
+    width: 650px;
+    height: 40px;
+    background-color: #F5F5F5;
+}
+
+.Earnings-head-box {
+  margin-left: 20px;
+  display: flex;
+  color: #4e73df;
+  font-family: courier;
+  font-weight: bold;
+}
+
+.earnings-img {
+  margin-left: 10px;
+  width: 605px;
+  height: 305px;
+  background-color: white;
+}
+
+.Revenue {
+  width: 350px;
+  height: 358px;
+  border-radius: 8px;
+  margin-right: 70px;
+  box-shadow: 5px 15px 15px #888888;
+  background-color: white;
+}
+
+.Revenue-head {
+  width: auto;
+  background-color:	#F5F5F5;
+}
+
+.Revenue-head-box {
+    display: flex;
+    margin-left: 20px;
+    color: #4e73df;
+    font-family: courier;
+    font-weight: bold;
+}
+
+.revenue-img {
+  margin-top: 25px;
+  width: auto;
+  height: 260px;
+}
+
+.left-right-mago-div {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 192px;
+}
+
+.left-mago-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-mago {
+  margin-left: 140px;
+}
+
+.Projects {
+  margin-top: 30px;
+  margin-left: 85px;
+  width: 557px;
+  height: 415px;
+  box-shadow: 5px 15px 15px #888888;
+  border-radius: 8px;
+}
+
+.Project-one-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.progress {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.prog-bar-flex {
+  margin-right: 15px;
+}
+
+.Projects-head {
+  margin-left: 20px;
+  display: flex;
+  color: #4e73df;
+  font-family: courier;
+  font-weight: bold;
+}
+
+.Projects-header {
+  background-color:	#F5F5F5;
+}
+
+.Projects-body {
+  background-color: white;
+}
+
+.Primary {
+  margin-bottom: 40px;
+  margin-top: 25px;
+  margin-left: 55px;
+}
+
+.prim-text {
+  margin-left: 15px;
+}
+
+.primary-one {
+  display: flex;
+  width: 627px;
+  height: 120px;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-right: 10px;
+  color: white;
+}
+
+.primary-two {
+  display: flex;
+  width: 627px;
+  height: 120px;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-right: 10px;
+  color: white;
+}
+
+.primary-three {
+  display: flex;
+  width: 627px;
+  height: 120px;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-right: 10px;
+  color: white;
+}
+
+.prim-one {
+  width: 250px;
+  background-color: #4e73df;
+  border-radius: 8px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 15px 15px #888888;
+}
+
+.prim-two {
+  width: 250px;
+  background-color: #1cc88a;
+  border-radius: 8px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 15px 15px #888888;
+}
+
+.prim-three {
+  width: 250px;
+  background-color: #36b9cc;
+  border-radius: 8px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 15px 15px #888888;
+}
+
+.prim-four {
+  width: 250px;
+  background-color: #e74a3b;
+  border-radius: 8px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 15px 15px #888888;
+}
+
+.prim-five {
+  width: 250px;
+  background-color: #858796;
+  border-radius: 8px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 15px 15px #888888;
+}
+
+.prim-six {
+  width: 250px;
+  background-color: #4e73df;
+  border-radius: 8px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 15px 15px #888888;
+}
+
+.right-mago-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-mago {
+  width: 100%;
+}
+
+.Illustrations {
+  margin-top: 30px;
+  border-radius: 8px;
+  width: 450px;
+  height: 475px;
+  box-shadow: 5px 15px 15px #888888;
+}
+
+.Illustrations-head {
+  background-color:	#F5F5F5;
+  color: #4e73df;
+}
+
+.Illustrations-head-box {
+  margin-left: 20px;
+  display: flex;
+  font-family: courier;
+  font-weight: bold;
+}
+
+.illustrations-img {
+  width: 90%;
+  background-color: white;
+}
+
+.illustrations-text {
+  background-color: white;
+  width: 350px ;
+  height: 125px;
+  margin-left: 15px;
+}
+
+.Development {
+  margin-top: 50px;
+
+  border-radius: 8px;
+  width: 450px;
+  height: 275px;
+  box-shadow: 5px 15px 15px #888888;
+}
+
+.Development-head {
+  background-color:	#F5F5F5;
+  color: #4e73df;
+}
+
+.Development-head-box {
+  display:flex;
+  margin-left: 20px;
+  font-family: courier;
+  font-weight: bold;
+}
+
+.development-text {
+  background-color: white;
+  width: 350px;
+  height: 150px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 576px) {
+  .Earnings {
+    display: flex;
+    flex-direction: row;
+    max-width: 375px;
+
+
+  }
+}
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style-mago.css.map */
