@@ -62,6 +62,7 @@ hr {
   background-color: #f8f9fc;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+  margin-left:-400px;
 }
 
 .search {
@@ -764,7 +765,7 @@ hr {
     background-color: #4e73df;
     color: #ffffff;
     width: 250px;
-    height: 100vh;
+    height: 241vh;
   }
 
   .sbadmin {
@@ -846,6 +847,11 @@ hr {
     margin-left: 5px;
     margin-bottom: 0;
     margin-right: 0;
+  }
+  .headerfillblue {
+    height: 50px;
+    width: 250px;
+    background-color: #4e73df;
   }
 }
 
