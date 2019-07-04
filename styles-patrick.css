@@ -87,7 +87,7 @@ hr {
 }
 
 .notifications {
-  margin-right: 25px;
+  margin-right: 27px;
 }
 
 .fa-envelope {
@@ -99,7 +99,7 @@ hr {
   right: 50px;
   position: absolute;
   background: #e74a3b;
-  padding-top: 3px;
+  padding-top: 1px;
   padding-bottom: 3px;
   top: 15px;
   width: 10px;
@@ -111,12 +111,12 @@ hr {
   color: white;
 }
 
-.badge:after {
+.badge1:after {
   content: "7";
   right: 95px;
   position: absolute;
   background: #e74a3b;
-  padding-top: 3px;
+  padding-top: 1px;
   padding-bottom: 3px;
   top: 15px;
   width: 10px;
@@ -783,7 +783,7 @@ hr {
   .addons, .pages, .charts, .tables, .utilities, .interface, .dashboard {
     width: 250px;
     height: 6vh;
-    padding-left: 45px;
+    padding-left: 25px;
     justify-items: left;
     justify-content: left;
     align-items: center;
@@ -796,7 +796,7 @@ hr {
     flex-wrap: wrap;
     width: 250px;
     min-height: 6vh;
-    padding-left: 32px;
+    padding-left: 18px;
     justify-items: left;
     justify-content: left;
     align-items: center;
@@ -804,7 +804,7 @@ hr {
   }
 
   .spancomponent {
-    padding-right: 90px;
+    padding-right: 80px;
   }
 
   .spamcomponentutilities {
