@@ -10,6 +10,20 @@
 </head>
 <body>
     <div class="page">
+        <div class="header">
+            <div class="headersearch">
+                <input type="text" value=" Search for..." class="input"/>
+                <button type="button" class="search"><i class='fas fa-search'></i></button>
+            </div>
+            <div class="headerminisearch">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="notifications">
+                <i class="fas fa-bell badge0"></i>
+                <i class="fas fa-envelope badge"></i>
+            </div>
+        </div>
         <div class="sidebar">
             <div class="sbadmin"><i class="fas fa-smile-wink"></i><span class="hideadmin"> SB ADMIN ²</span>
             </div>
@@ -58,20 +72,298 @@
             </div>
 
         </div>
-        <div class="header">
-            <div class="headersearch">
-              <input type="text" value=" Search for..." class="input"/>
-              <button type="button" class="search"><i class='fas fa-search'></i></button>
+
+       <div class="main-content">
+           <div class="flex-container">
+
+               <div class="Dashboard_row">
+                   <div class="Dashboard-item">Dashboard</div>
+
+                   <div class="button-dl">
+
+                       <button class="button"><i class="fas fa-download"></i>Generate Report</button>
+                   </div>
+                   <!-- <div class="Report-button">Generate report</div> -->
+               </div>
+
+
+               <div class="xtabs_row">
+
+                   <div class="earnings-monthly-tab">
+                       <div><p class="e-m-input">earnings (monthly)</p>
+                           <p class="count">$ 40,000</p></div>
+                       <i class="fas fa-calendar icon-earnings-m"></i>
+                   </div>
+
+                   <div class="earnings-annual-tab">
+                       <div><p class="e-a-input">earnings (annual)</p>
+                           <p class="count">$ 215,000</p></div>
+                       <i class="fas fa-dollar-sign icon-earnings-a"></i>
+                   </div>
+
+                   <div class="tasks-tab">
+                       <div><p class="tasks-input">tasks</p>
+                           <p class="count">5O%</p></div>
+
+                       <div class="w3-light-grey w3-round prg-bar ">
+                           <div class="w3-container w3-blue w3-round prg-bar " style="width:50%"></div>
+                       </div>
+
+
+                       <i class="fas fa-clipboard-list icon-tasks"></i>
+                   </div>
+
+
+
+
+                   <div class="pending-requests-tab">
+                       <div><p class="pending-req-input">pending requests</p>
+                           <p class="count">18</p></div>
+                       <i class="fas fa-comments icon-comments"></i>
+                   </div>
+               </div>
+
+           </div>
+
+           <div class="container-mago">
+               <div class="container-div">
+                   <div class="container-mago-row">
+
+                       <div class="Earnings">
+
+                           <div class="Earnings-head">
+                               <div class="Earnings-head-box">
+                                   <h4> Earnings Review </h4>
+                               </div>
+                           </div>
+                           <img src="images/cropped.png" class="earnings-img" alt="earnings">
+
+                       </div>
+                       <div class="Revenue">
+                           <div class="Revenue-head">
+                               <div class="Revenue-head-box">
+                                   <h4> Revenue Sources </h4>
+                               </div>
+                           </div>
+                           <img src="images/circle-graph.png" class="revenue-img" alt="revenue">
+
+                       </div>
+                   </div>
+               </div>
+               <div class="left-right-mago-div">
+                   <div class="main-container-mago">
+
+
+                       <div class="left-mago-div">
+                           <div class="left-mago">
+
+                               <div class="box-mago Projects">
+                                   <div class="Projects-header">
+                                       <div class="Projects-head">
+                                           <h4> Projects </h4>
+                                       </div>
+                                   </div>
+                                   <div class="Projects-body">
+
+
+                                       <div class="Projects-one">
+                                           <div class="Project-one-wrapper">
+                                               <h6>Server Migration </h6>
+                                               <span class="prog-bar-flex">20%</span>
+                                           </div>
+                                           <div class="progress">
+                                               <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                                                   <span class="sr-only">70% Complete</span>
+                                               </div>
+                                           </div>
+                                       </div>
+
+
+                                       <!-- PROGRESS BAR 2 -->
+
+                                       <div class="Projects-one">
+                                           <div class="Project-one-wrapper">
+                                               <h6>Sales Tracking </h6>
+                                               <span class="prog-bar-flex">40%</span>
+                                           </div>
+                                           <div class="progress">
+                                               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                                   <span class="sr-only">40% Complete</span>
+                                               </div>
+                                           </div>
+                                       </div>
+
+
+                                       <!-- PROGRESS BAR 3 -->
+                                       <div class="Projects-one">
+                                           <div class="Project-one-wrapper">
+                                               <h6>Customer Database </h6>
+                                               <span class="prog-bar-flex">60%</span>
+                                           </div>
+                                           <div class="progress">
+                                               <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                                   <span class="sr-only">60% Complete</span>
+                                               </div>
+                                           </div>
+                                       </div>
+
+
+                                       <!-- PROGRESS BAR 3 -->
+                                       <div class="Projects-one">
+                                           <div class="Project-one-wrapper">
+                                               <h6>Payout Details </h6>
+                                               <span class="prog-bar-flex">80%</span>
+                                           </div>
+                                           <div class="progress">
+                                               <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                                   <span class="sr-only">80% Complete</span>
+                                               </div>
+                                           </div>
+                                       </div>
+
+
+                                       <!-- PROGRESS BAR 3 -->
+                                       <div class="Projects-one">
+                                           <div class="Project-one-wrapper">
+                                               <h6>Customer Database </h6>
+                                               <span class="prog-bar-flex">Complete!</span>
+                                           </div>
+                                           <div class="progress">
+                                               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                   <span class="sr-only">100% Complete</span>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+
+                               </div>
+
+
+                               <div class="Primary">
+                                   <div class="primary-one">
+                                       <div class="prim-one">
+                                           <p class="prim-text">Primary
+                                               <br>
+                                               #4e73df</p>
+
+
+
+                                       </div>
+
+                                       <div class="prim-two">
+                                           <p class="prim-text"> Success
+                                               <br>
+                                               #1cc88a</p>
+
+
+                                       </div>
+                                   </div>
+
+                                   <div class="primary-two">
+                                       <div class="prim-three">
+                                           <p class="prim-text">Info
+                                               <br>
+                                               #36b9cc</p>
+
+
+
+                                       </div>
+
+                                       <div class="prim-four">
+                                           <p class="prim-text">Warning
+                                               <br>
+                                               #f6c23e</p>
+
+
+
+                                       </div>
+                                   </div>
+
+                                   <div class="primary-three">
+                                       <div class="prim-five">
+                                           <p class="prim-text">Danger
+                                               <br>
+                                               #e74a3b</p>
+
+
+
+                                       </div>
+
+                                       <div class="prim-six">
+                                           <p class="prim-text">Secondary
+                                               <br>
+                                               #858796</p>
+
+
+
+                                       </div>
+                                   </div>
+
+                               </div>
+
+                           </div>
+                       </div>
+
+                       <div class="right-mago-div">
+                           <div class="right-mago">
+
+
+                               <div class="box-mago Illustrations">
+                                   <div class="Illustrations-head">
+                                       <div class="Illustrations-head-box">
+                                           <h4>Illustrations</h4>
+                                       </div>
+                                   </div>
+                                   <img src="images/illustrations.png" class="illustrations-img" alt="earnings">
+
+                                   <div class="illustrations-text">
+                                       <p>Add some quality, svg illustrations to your project courtesy of <a href="google.com">unDraw</a>, a constantly updated collection of beautiful svg images that you can use completely free and without attribution!</p>
+
+                                       <p><a href="google.com">Browse Illustrations on unDraw →</a></p>
+                                   </div>
+
+                               </div>
+
+
+                               <div class="box-mago Development">
+                                   <div class="Development-head">
+                                       <div class="Development-head-box">
+                                           <h4>Development Approach</h4>
+                                       </div>
+                                   </div>
+                                   <div class="development-text">
+                                       <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes. </p>
+
+                                       <p>Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                                   </div>
+                               </div>
+
+
+                           </div>
+                       </div>
+
+
+
+                   </div>
+               </div>
+           </div>
+       </div>
+
+
+
+        <div class="outro">
+            <div class="footer-mago">
+                <p> Copyright © Your Website 2019 </p>
+
             </div>
-            <div class="headerminisearch">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-search"></i>
-            </div>
-            <div class="notifications">
-                <i class="fas fa-bell badge0"></i>
-                <i class="fas fa-envelope badge"></i>
-            </div>
+
         </div>
+
+
+
+
+
+
     </div>
     <script src="collapseble.js"></script>
 </body>
