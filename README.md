@@ -1,4 +1,4 @@
--
+
 - geen SCSS/partials
 - wel bootstrap
 - onoverzichtelijk
@@ -7,5 +7,5 @@
 
 
 
-+
+
 - zag er oke uit
