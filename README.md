@@ -1,1 +1,11 @@
-# SB-Admin-2
+
+- geen SCSS/partials
+- wel bootstrap
+- onoverzichtelijk
+- no comments
+- niet responsive
+
+
+
+
+- zag er oke uit
